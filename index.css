@@ -1,0 +1,48 @@
+
+html, body {
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    margin: 0;
+}
+
+.qr-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.qr-content {
+    /* border: 1px solid black; */
+    border-radius: 3%;
+    max-width: 300px;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-content img {
+    height: 300px;
+    border-radius: 3%;
+}
+
+.qr-content .header {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.qr-content .subtitle {
+    font-weight: 400;
+    max-width: 250px;
+    color: hsl(212, 45%, 89%);
+}
